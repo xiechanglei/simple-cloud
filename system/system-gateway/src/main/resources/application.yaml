@@ -7,4 +7,6 @@ spring:
     nacos:
       discovery:
         server-addr: @nacos.address@ # Nacos 服务器地址
-        service: ${spring.application.name} # 注册到 Nacos 的服务名。默认值为 ${spring.application.name}。
+
+server:
+  port: 9090
