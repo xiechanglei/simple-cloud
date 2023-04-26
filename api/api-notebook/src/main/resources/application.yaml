@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-notebook # Spring 应用名
+  profiles:
+    active: @profile.active@ # Spring 环境配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: @nacos.address@ # Nacos 服务器地址
+
+server:
+  port: 20002

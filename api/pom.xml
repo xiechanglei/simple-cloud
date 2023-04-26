@@ -13,6 +13,7 @@
 
     <modules>
         <module>api-auth</module>
+        <module>api-notebook</module>
     </modules>
 
     <artifactId>api</artifactId>

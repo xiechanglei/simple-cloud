@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="system-gateway" />
         <module name="api-auth" />
+        <module name="api-notebook" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-auth" options="-parameters" />
+      <module name="api-notebook" options="-parameters" />
       <module name="system-gateway" options="-parameters" />
     </option>
   </component>

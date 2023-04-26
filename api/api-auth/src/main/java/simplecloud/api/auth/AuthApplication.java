@@ -1,4 +1,4 @@
-package com.xiechanglei.code.simplecloud.api.auth;
+package simplecloud.api.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

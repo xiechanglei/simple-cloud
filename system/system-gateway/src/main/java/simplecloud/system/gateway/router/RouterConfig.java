@@ -1,4 +1,4 @@
-package com.xiechanglei.code.simplecloud.gateway.router;
+package simplecloud.system.gateway.router;
 
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
@@ -15,9 +15,7 @@ public class RouterConfig {
         //路由跳转，截断前面第一个/，转发到api-auth服务
         return builder.routes()
                 .route(r -> r.path("/api/auth/**")
-//                        .filters(f -> f.stripPrefix(1))
-                        .uri("lb://api-auth"))
-
-                .build();
+                        .filters(f -> f.stripPrefix(1))
+                        .uri("lb://api-auth")).build();
     }
 }

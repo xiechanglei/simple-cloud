@@ -1,4 +1,4 @@
-package com.xiechanglei.code.simplecloud.api.auth.controller;
+package simplecloud.api.auth.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
