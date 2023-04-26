@@ -9,4 +9,4 @@ spring:
         server-addr: @nacos.address@ # Nacos 服务器地址
 
 server:
-  port: 9090
+  port: 10001
